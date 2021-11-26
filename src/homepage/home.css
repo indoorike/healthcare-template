@@ -1,0 +1,111 @@
+.intro-wrapper {
+  margin: auto;
+  background-image: url(../images/doctor.jpeg);
+  background-repeat: no-repeat;
+  background-size: 170%;
+  background-position: 15% 30%;
+  height: 25rem;
+}
+
+.introduction-text {
+  width: 65%;
+  margin-left: 0.5rem;
+  text-align: center;
+  height: 100%;
+  padding-top: 0.5rem;
+}
+
+.introduction-text h1 {
+  font-size: 2.7rem;
+  color: c;
+  margin: 0.5rem;
+}
+
+.buttons {
+  margin: auto;
+  display: block;
+}
+
+.intro-wrapper button {
+  display: block;
+  margin: auto;
+  font-size: 1.3rem;
+  width: 12rem;
+  height: 2.5rem;
+  border: none;
+  padding: 0.3rem 0rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+#our-treatments {
+  background-color: rgb(92, 190, 247);
+}
+
+#contact-us {
+  background-color: rgb(247, 246, 224);
+}
+
+/* summaries */
+
+.summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.summary img {
+  height: 120px;
+  width: 120px;
+}
+
+#clock {
+  height: 100px;
+  width: 100px;
+}
+
+.summary-text h1 {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.summary-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+/* Meet the staff section*/
+
+.home-staff {
+  font-size: 1.5rem;
+}
+
+.home-staff h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-staff p {
+  line-height: 1.5;
+  text-align: justify;
+  width: 80%;
+}
+
+.doctor-body-image {
+  border-radius: 50%;
+  width: max-content;
+  margin: 5rem auto 1rem;
+}
+
+.doctor-body-image img {
+  margin: auto;
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
