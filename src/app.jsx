@@ -1,5 +1,6 @@
 import Header from "./header/header";
 import Home from "./homepage/home";
+import Footer from "./footer/footer";
 import { useState } from "react";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         showMenu={showMenu ? "menu show" : "menu"}
       />
       <Home />
+      <Footer />
     </>
   );
 }

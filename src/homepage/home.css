@@ -39,7 +39,7 @@
 }
 
 #our-treatments {
-  background-color: rgb(92, 190, 247);
+  background-color: rgb(108, 197, 248);
 }
 
 #contact-us {
@@ -80,6 +80,10 @@
 
 /* Meet the staff section*/
 
+.doctor-bio {
+  background-color: rgb(174, 220, 247);
+}
+
 .home-staff {
   font-size: 1.5rem;
 }
@@ -87,12 +91,14 @@
 .home-staff h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .home-staff p {
   line-height: 1.5;
   text-align: justify;
   width: 80%;
+  padding-left: 0.5rem;
 }
 
 .doctor-body-image {
@@ -108,4 +114,55 @@
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
+}
+
+.full-bio {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow {
+  transform: translateX(0%);
+  transition: 1s;
+  position: absolute;
+  margin-top: 0.3rem;
+}
+
+.move {
+  transform: translateX(100%);
+  transition: 1s;
+}
+
+/* contact form */
+
+.contact-form {
+  background-color: rgb(174, 220, 247);
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.contact-form label {
+  opacity: 0.5;
+}
+
+.contact-input {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.contact-form button {
+  border: none;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0px;
 }
