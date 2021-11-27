@@ -1,11 +1,14 @@
 import logo from "../images/chiropractic.png";
 import burger from "../images/burger.png";
+import { Link } from "react-router-dom";
 import styles from "./header.css";
 export default function Header({ showMenu, changeMenu }) {
   return (
     <header>
       <div className="logo-container">
-        <img src={logo} alt="chiropractic logo" />
+        <Link to="/">
+          <img src={logo} alt="chiropractic logo" />
+        </Link>
         <p>
           Your Logo
           <br />{" "}
@@ -28,8 +31,12 @@ export default function Header({ showMenu, changeMenu }) {
           src={burger}
         />
         <ul className={showMenu}>
-          <li>Home</li>
-          <li>Treatments</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/treatments">
+            <li>Treatments</li>
+          </Link>
           <li>Meet the Staff</li>
         </ul>
       </div>

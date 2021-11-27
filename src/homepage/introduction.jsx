@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Introduction() {
   return (
     <>
@@ -5,7 +6,9 @@ export default function Introduction() {
         <div className="introduction-text">
           <h1>We've Got Your Back.</h1>
           <div className="buttons">
-            <button id="our-treatments">What We Treat</button>
+            <Link to="/treatments">
+              <button id="our-treatments">What We Treat</button>
+            </Link>
             <button id="contact-us">Contact Us</button>
           </div>
         </div>
