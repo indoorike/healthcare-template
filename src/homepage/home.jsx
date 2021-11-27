@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     const setInt = setInterval(() => {
       setArrow(!arrow);
-    }, 2000);
+    }, 1000);
 
     return () => {
       clearInterval(setInt);

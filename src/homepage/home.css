@@ -75,17 +75,18 @@
 .summary-text p {
   font-size: 1.5rem;
   line-height: 1.5;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Meet the staff section*/
 
-.doctor-bio {
-  background-color: rgb(174, 220, 247);
-}
-
 .home-staff {
   font-size: 1.5rem;
+  padding-bottom: 2rem;
+  padding-top: 0.1rem;
+  margin-top: 2rem;
+  background-color: rgb(174, 220, 247);
 }
 
 .home-staff h1 {
@@ -117,7 +118,7 @@
 }
 
 .full-bio {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: transparent;
   border: none;
 }
@@ -126,7 +127,7 @@
   transform: translateX(0%);
   transition: 1s;
   position: absolute;
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
 }
 
 .move {
