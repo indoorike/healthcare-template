@@ -11,6 +11,10 @@ export default function Summaries() {
           image={family}
           title="Family-First Business"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          style={{
+            borderBottom: "3px solid rgb(92, 190, 247)",
+            paddingBottom: "15px",
+          }}
         />
       </Fade>
       <Fade bottom>
@@ -18,6 +22,10 @@ export default function Summaries() {
           image={medic}
           title="Specialized Care"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          style={{
+            borderBottom: "3px solid rgb(92, 190, 247)",
+            paddingBottom: "15px",
+          }}
         />
       </Fade>
       <Fade bottom>
@@ -26,6 +34,10 @@ export default function Summaries() {
           image={clock}
           title="Around The Clock Service"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          style={{
+            borderBottom: "3px solid rgb(92, 190, 247)",
+            paddingBottom: "15px",
+          }}
         />
       </Fade>
     </section>
