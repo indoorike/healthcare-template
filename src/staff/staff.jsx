@@ -11,6 +11,7 @@ export default function Staff() {
           padding: "10px",
           paddingTop: "1.5rem",
           paddingBottom: "1.5rem",
+          fontSize: "2.5rem",
         }}
       >
         Meet the Team

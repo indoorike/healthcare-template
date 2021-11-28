@@ -37,6 +37,9 @@ export default function Header({ showMenu, changeMenu }) {
           <Link to="/treatments">
             <li>Treatments</li>
           </Link>
+          <Link to="/aboutus">
+            <li>About Us</li>
+          </Link>
           <Link to="/staff">
             <li>Meet the Staff</li>
           </Link>
