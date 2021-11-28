@@ -9,7 +9,9 @@ export default function Introduction() {
             <Link to="/treatments">
               <button id="our-treatments">What We Treat</button>
             </Link>
-            <button id="contact-us">Contact Us</button>
+            <Link to="/contact">
+              <button id="contact-us">Contact Us</button>
+            </Link>
           </div>
         </div>
       </section>

@@ -22,6 +22,7 @@ export default function AboutUs() {
           width: "90%",
           margin: "auto",
           marginBottom: "2rem",
+          lineHeight: "1.5",
         }}
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

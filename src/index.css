@@ -5,6 +5,40 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  position: relative;
+}
+
+body {
+  position: relative;
+}
+
 a {
   text-decoration: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  top: 90%;
+  bottom: 0;
+  left: 75%;
+  right: 0;
+  z-index: 1000000;
+  height: 50px;
+  width: 100px;
+  transform: translateX(1000%);
+  object-fit: contain;
+}
+
+.scroll-to-top:active {
+  border-style: onset;
+}
+
+.scrollShow {
+  transform: translateX(0%);
+  transition: transform 0.2s;
+}
+
+.scrollShow:active {
+  border-style: onset;
 }

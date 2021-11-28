@@ -1,7 +1,13 @@
 import Summary from "../homepage/summary";
 import doctor from "../images/doctor2.jpeg";
+import receptionist from "../images/receptionist.jpeg";
 import styles from "./staff.css";
+import { useEffect } from "react";
 export default function Staff() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className="staff">
       <h1
@@ -21,6 +27,11 @@ export default function Staff() {
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         image={doctor}
         id="fullbio"
+      />
+      <Summary
+        title="Staff Member"
+        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        image={receptionist}
       />
     </div>
   );

@@ -1,0 +1,21 @@
+.contact-page {
+  margin-bottom: 10rem;
+}
+
+.contact-container {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 2px solid rgb(174, 220, 247);
+  line-height: 5;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info img {
+  object-fit: contain;
+}

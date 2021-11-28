@@ -1,8 +1,18 @@
 import logo from "../images/chiropractic.png";
 import burger from "../images/burger.png";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import styles from "./header.css";
 export default function Header({ showMenu, changeMenu }) {
+  useEffect(() => {
+    console.log("added");
+    document.querySelectorAll(".menu-link").forEach((item) => {
+      item.addEventListener("click", () => {
+        document.querySelector(".burger").click();
+      });
+    });
+  }, []);
+
   return (
     <header>
       <div className="logo-container">
@@ -10,7 +20,7 @@ export default function Header({ showMenu, changeMenu }) {
           <img src={logo} alt="chiropractic logo" />
         </Link>
         <p>
-          Your Logo
+          Your Business
           <br />{" "}
           <span
             style={{
@@ -31,17 +41,20 @@ export default function Header({ showMenu, changeMenu }) {
           src={burger}
         />
         <ul className={showMenu}>
-          <Link to="/">
+          <Link className="menu-link" to="/">
             <li>Home</li>
           </Link>
-          <Link to="/treatments">
+          <Link className="menu-link" to="/treatments">
             <li>Treatments</li>
           </Link>
-          <Link to="/aboutus">
+          <Link className="menu-link" to="/aboutus">
             <li>About Us</li>
           </Link>
-          <Link to="/staff">
+          <Link className="menu-link" to="/staff">
             <li>Meet the Staff</li>
+          </Link>
+          <Link className="menu-link" to="/contact">
+            <li>Contact</li>
           </Link>
         </ul>
       </div>

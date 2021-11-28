@@ -6,6 +6,7 @@ header {
   font-size: 1.2rem;
   padding-bottom: 1rem;
   background-color: rgb(108, 197, 248);
+  position: relative;
 }
 
 header input {
@@ -34,6 +35,8 @@ header input {
 .burger {
   z-index: 100;
   padding-top: 5px;
+  width: 43px;
+  height: 43px;
 }
 
 .menu {
@@ -48,11 +51,20 @@ header input {
   height: 100%;
   text-align: center;
   list-style: none;
-  background-color: rgb(255, 245, 233);
+  background-color: rgb(174, 220, 247);
   font-size: 2rem;
   padding-top: 50%;
   z-index: 99;
 }
+.menu a {
+  color: black;
+}
+
+.menu a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .show {
   transform: translateX(0%);
 }
