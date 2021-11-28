@@ -1,6 +1,6 @@
 import arrowimg from "../images/right-triangle.png";
 import doctor2 from "../images/doctor2.jpeg";
-
+import { Link } from "react-router-dom";
 export default function StaffSection({ arrow }) {
   return (
     <section className="home-staff">
@@ -13,9 +13,11 @@ export default function StaffSection({ arrow }) {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore...
-            <button onClick={() => console.log("click")} className="full-bio">
-              Read More
-            </button>
+            <Link to="/staff#fullbio">
+              <button onClick={() => console.log("click")} className="full-bio">
+                Read More
+              </button>
+            </Link>
             <img className={arrow} src={arrowimg} alt="arrow" />
           </p>
         </div>

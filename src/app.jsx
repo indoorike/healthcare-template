@@ -1,5 +1,5 @@
 import Treatments from "./treatments/treatments.jsx";
-
+import Staff from "./staff/staff.jsx";
 import Header from "./header/header";
 import Home from "./homepage/home";
 import Footer from "./footer/footer";
@@ -21,6 +21,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/treatments" element={<Treatments />} />
+        <Route path="/staff" element={<Staff />} />
       </Routes>
 
       <Footer />
