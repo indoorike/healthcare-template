@@ -26,6 +26,8 @@ export default function Summaries() {
             borderBottom: "3px solid rgb(92, 190, 247)",
             paddingBottom: "15px",
           }}
+          classN="reverse-order"
+          sectionID="second-summary"
         />
       </Fade>
       <Fade bottom>

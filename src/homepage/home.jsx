@@ -21,19 +21,8 @@ export default function Home() {
     <div className="home-wrapper">
       <Introduction />
       <Summaries />
+
       <StaffSection arrow={arrow ? "arrow" : "arrow move"} />
-      <h1
-        style={{
-          textAlign: "center",
-          marginTop: "2.5rem",
-          fontSize: "2.5rem",
-          borderTop: "2px solid rgb(174, 220, 247)",
-          borderBottom: "2px solid rgb(174, 220, 247)",
-          padding: "20px 0px",
-        }}
-      >
-        Send Us A Message
-      </h1>
       <ContactForm />
     </div>
   );

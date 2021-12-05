@@ -54,13 +54,15 @@ export default function App() {
         }
         onClick={scrollToTop}
       />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/treatments" element={<Treatments />} />
-        <Route path="/staff" element={<Staff />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/treatments" element={<Treatments />} />
+          <Route path="/staff" element={<Staff />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
       <Footer />
     </>
   );

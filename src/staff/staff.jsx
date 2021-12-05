@@ -27,11 +27,13 @@ export default function Staff() {
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         image={doctor}
         id="fullbio"
+        summaryType="staff-image"
       />
       <Summary
         title="Staff Member"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         image={receptionist}
+        summaryType="staff-image"
       />
     </div>
   );
