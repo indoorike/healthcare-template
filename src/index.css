@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .scroll-to-top {
   position: fixed;
   top: 90%;
@@ -81,6 +85,10 @@ a {
 @media screen and (min-width: 1050px) {
   html {
     font-size: 100%;
+  }
+  header {
+    width: 90%;
+    margin: auto;
   }
   body {
     width: 60%;
