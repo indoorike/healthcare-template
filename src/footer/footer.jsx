@@ -8,7 +8,7 @@ export default function Footer() {
           marginTop: "1rem",
         }}
       >
-        Isaac Parks. All Rights Reserved
+        Copyright © 2021 | Ike Web Designs | All Rights Reserved
       </p>
     </footer>
   );

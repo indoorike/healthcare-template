@@ -23,7 +23,6 @@ export default function App() {
   });
 
   function handleScroll() {
-    console.log(pageScroll);
     setTimeout(() => {
       setPageScroll(window.scrollY);
     }, 0);
