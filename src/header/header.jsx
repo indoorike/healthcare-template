@@ -16,7 +16,7 @@ export default function Header({ showMenu, changeMenu }) {
   return (
     <header>
       <div className="logo-container">
-        <Link to="/">
+        <Link to="/home">
           <img src={logo} alt="chiropractic logo" />
         </Link>
         <p>
@@ -41,7 +41,7 @@ export default function Header({ showMenu, changeMenu }) {
           src={burger}
         />
         <ul className={showMenu}>
-          <Link className="menu-link" to="/">
+          <Link className="menu-link" to="/home">
             <li>Home</li>
           </Link>
           <Link className="menu-link" to="/treatments">
