@@ -55,7 +55,7 @@ export default function App() {
       />
       <main>
         <Routes>
-          <Route path="healthcare-template/" element={<Home />} />
+          <Route path="/healthcare-template" element={<Home />} />
           <Route path="/treatments" element={<Treatments />} />
           <Route path="/staff" element={<Staff />} />
           <Route path="/aboutus" element={<AboutUs />} />
