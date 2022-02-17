@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
   },
-  "homepage": "https://indoorike.github.io/home",
+  "homepage": "https://indoorike.github.io/healthcare-template/",
   "eslintConfig": {
     "extends": [
       "react-app",
