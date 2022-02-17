@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.5567ff4b.chunk.css",
-    "main.js": "/home/static/js/main.a29f2840.chunk.js",
-    "main.js.map": "/home/static/js/main.a29f2840.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3867dedc.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3867dedc.js.map",
-    "static/js/2.8f94f65e.chunk.js": "/home/static/js/2.8f94f65e.chunk.js",
-    "static/js/2.8f94f65e.chunk.js.map": "/home/static/js/2.8f94f65e.chunk.js.map",
-    "index.html": "/home/index.html",
-    "static/css/main.5567ff4b.chunk.css.map": "/home/static/css/main.5567ff4b.chunk.css.map",
-    "static/js/2.8f94f65e.chunk.js.LICENSE.txt": "/home/static/js/2.8f94f65e.chunk.js.LICENSE.txt",
-    "static/media/clock.d8e475a6.png": "/home/static/media/clock.d8e475a6.png",
-    "static/media/home.css": "/home/static/media/doctor.ffbd6d90.jpeg",
-    "static/media/doctor2.13e2b44d.jpeg": "/home/static/media/doctor2.13e2b44d.jpeg",
-    "static/media/receptionist.b0702dfa.jpeg": "/home/static/media/receptionist.b0702dfa.jpeg"
+    "main.css": "/healthcare-template/static/css/main.1533d64d.chunk.css",
+    "main.js": "/healthcare-template/static/js/main.fdb22a06.chunk.js",
+    "main.js.map": "/healthcare-template/static/js/main.fdb22a06.chunk.js.map",
+    "runtime-main.js": "/healthcare-template/static/js/runtime-main.bdb59675.js",
+    "runtime-main.js.map": "/healthcare-template/static/js/runtime-main.bdb59675.js.map",
+    "static/js/2.8f94f65e.chunk.js": "/healthcare-template/static/js/2.8f94f65e.chunk.js",
+    "static/js/2.8f94f65e.chunk.js.map": "/healthcare-template/static/js/2.8f94f65e.chunk.js.map",
+    "index.html": "/healthcare-template/index.html",
+    "static/css/main.1533d64d.chunk.css.map": "/healthcare-template/static/css/main.1533d64d.chunk.css.map",
+    "static/js/2.8f94f65e.chunk.js.LICENSE.txt": "/healthcare-template/static/js/2.8f94f65e.chunk.js.LICENSE.txt",
+    "static/media/clock.d8e475a6.png": "/healthcare-template/static/media/clock.d8e475a6.png",
+    "static/media/home.css": "/healthcare-template/static/media/doctor.ffbd6d90.jpeg",
+    "static/media/doctor2.13e2b44d.jpeg": "/healthcare-template/static/media/doctor2.13e2b44d.jpeg",
+    "static/media/receptionist.b0702dfa.jpeg": "/healthcare-template/static/media/receptionist.b0702dfa.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3867dedc.js",
+    "static/js/runtime-main.bdb59675.js",
     "static/js/2.8f94f65e.chunk.js",
-    "static/css/main.5567ff4b.chunk.css",
-    "static/js/main.a29f2840.chunk.js"
+    "static/css/main.1533d64d.chunk.css",
+    "static/js/main.fdb22a06.chunk.js"
   ]
 }
